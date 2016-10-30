@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=.60, user-scalable=no">
+  <title>Simon says 9000</title>
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="simon.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="simon.css" media="screen">
+</head>
+<body class="Site">
+  <div class="circle Site-content" id="outer">
+    <div class="outerShad lightWrap">
+      <div class="outerShad ring" id="controls">
+        <span class="contBrand"><h1>SIMON</h1>says "9000"!</span>
+        <div class="innerShad buttonSection">
+          <div class="topWrapper">
+            <div id="led"></div>
+              <div class=" start btn">
+              start
+            </div>
+            <div class="strict btn" id="strictBtn">
+              <div class="strictLamp"></div>strict
+            </div>
+          </div>
+          <div class="onoffswitch" id="onOffSwitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+            <label class="onoffswitch-label" for="myonoffswitch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+            </label>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="light innerShad" id="green"></div>
+      <div class="light innerShad" id="red"></div>
+      <div class="light innerShad" id="blue"></div>
+      <div class="light innerShad" id="yellow"></div>
+    </div>
+
+  </div>
+  <footer>
+    <p>Memorise. <br />Remember what you just did? <br /> This game is you against you. The machine at your service. <br /></p>
+    <p><span>Madly made by the Man from London</span></p> <br>
+    <p>October 2016</p>
+  </footer>
+
+</body>
+</html>
